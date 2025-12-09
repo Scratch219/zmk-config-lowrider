@@ -23,3 +23,9 @@
                 <&gpio0 6  (GPIO_ACTIVE_LOW)>,  // P0.06 
                 <&gpio1 13 (GPIO_ACTIVE_LOW)>;  // P1.13
 };
+
+// BLE-Rolle: Central
+&zmk_ble {
+    compatible = "zmk,ble";
+    role = "central";
+};

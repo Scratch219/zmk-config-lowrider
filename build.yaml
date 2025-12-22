@@ -21,7 +21,5 @@
 include:
   - board: nice_nano_v2
     shield: quefrency_left
-    cmake-args: -DSHIELD_DIR=./config/shields
   - board: nice_nano_v2
     shield: quefrency_right
-    cmake-args: -DSHIELD_DIR=./config/shields

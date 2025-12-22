@@ -1,7 +1,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,bt-name = "LowRider Keyboard - Aleks";
+        zmk,bt-name = "";
 
     };
 };

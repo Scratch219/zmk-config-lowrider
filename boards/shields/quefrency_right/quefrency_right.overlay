@@ -2,6 +2,7 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,bt-name = "LowRider Keyboard - Aleks";
+        zmk,split-role = "central";
     };
 };
 
@@ -29,4 +30,12 @@
 &zmk_ble {
     compatible = "zmk,ble";
     role = "central";
+};
+
+&split {
+    enabled;
+};
+
+&split_ble {
+    enabled;
 };
